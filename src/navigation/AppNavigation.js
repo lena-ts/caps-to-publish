@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
-import {TabNavigator} from "./TabNavigator";
 import {useSelector} from "react-redux";
 import {IntroNavigator} from "./IntroNavigator";
 import {StackCategories} from "./StackCategories";

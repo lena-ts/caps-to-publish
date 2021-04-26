@@ -12,7 +12,7 @@ export const Banner = () => {
         return;
     }
     return( pro ? null :
-        <View style={{backgroundColor: 'white', width: '100%', alignItems: 'center'}}>
+        <View style={{backgroundColor: 'black', width: '100%', alignItems: 'center'}}>
         <AdMobBanner
             bannerSize="banner"
             adUnitID="ca-app-pub-3485393765261217/5109333554" //Real ID

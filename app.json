@@ -19,9 +19,12 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.caps.ios",
-      "buildNumber": "1.0.0",
+      "buildNumber": "1.0.0.1",
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-3485393765261217~6865268354"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to let you to put a photos of your clothing into a digital wardrobe."
       }
     },
     "web": {

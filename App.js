@@ -1,6 +1,6 @@
 import React from 'react';
 import {Provider} from 'react-redux';
-import { StatusBar} from 'react-native';
+import { StatusBar, SafeAreaView} from 'react-native';
 import {store, persistor} from './src/store';
 import * as Localization from 'expo-localization';
 import i18n from 'i18n-js';
@@ -18,9 +18,11 @@ export default function App() {
   return (
       <Provider store={store}>
           <PersistGate loading={null} persistor={persistor}>
-          <StatusBar barStyle="light-content"/>
-          <AppNavigation/>
-          <Banner />
+              <StatusBar barStyle="light-content"/>
+              <AppNavigation/>
+              <SafeAreaView style={{backgroundColor: 'black'}}>
+                 <Banner />
+              </SafeAreaView>
           </PersistGate>
       </Provider>
   );
