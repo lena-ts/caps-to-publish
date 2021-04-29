@@ -19,7 +19,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.caps.ios",
-      "buildNumber": "1.0.0.1",
+      "buildNumber": "1.0.0.2",
       "infoPlist": {
         "NSCameraUsageDescription": "The app uses the camera to let you to put a photos of your clothing into a digital wardrobe.",
         "NSPhotoLibraryUsageDescription": "Grant CAPS access to photos to upload them into your digital wardrobe"
